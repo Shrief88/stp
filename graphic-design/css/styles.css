@@ -1,0 +1,205 @@
+/* Nav styling ------------------------------------------ */
+
+nav {
+    font-size: 1.3rem;
+    background-color: #C10D0D;
+    font-family: 'Merriweather', serif;
+}
+
+.navStp,
+nav a {
+    color: whitesmoke;
+}
+
+.navstp:hover {
+    color: black;
+}
+
+.nav-item a:hover {
+    color: black;
+}
+
+nav img {
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+}
+
+/**------------ container --------------***/
+
+/* Hide the browser-specific focus styles */
+.floating-label-field {
+    border-width: 0;
+    color: rgba(#2c3e50, .75);
+    &:focus {
+      outline: 0;
+      box-shadow: 0;
+    }
+  
+    &::placeholder {
+      color: transparent;
+    }
+  }
+
+.container {
+     margin-top: 4rem;
+    margin-bottom: 3rem;
+    padding: 2%;
+    border: solid rgb(255, 249, 249);
+    height: auto;
+    width: 40%;
+    min-width: 20rem;
+    min-height: 100%;
+    /* height: 100%; */
+    /* max-height: 50%; */
+    border-radius: 5%;
+    background-color: #A88F8F;
+    opacity: 0.9;
+}
+/*
+.form-floating-label {
+  position: relative;
+
+}*/
+
+.form-floating-label input{
+    position: relative;
+    margin-bottom: 0;
+    color: linen;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 1rem 2rem .5rem 1.25rem ;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #2c3e50;
+    outline: none;
+    background: transparent;
+    height: 55px;
+}
+
+input:focus,
+select:focus{
+    outline: #2c3e50;
+}
+
+.form-floating-label label {
+  color: whitesmoke;
+  font-size: 18px;
+  position: absolute;
+  pointer-events: none;
+  left: 25px;
+  bottom: 0;
+  transition: all 0.3s ease-in;
+  font-weight: 300;
+  -moz-transition: 0.3s ease all;
+  -webkit-transition: 0.3s ease all;
+}
+.form-floating-label input:focus ~ label,
+.year:focus{
+    color: #C10D0D;
+}
+.form-floating-label input:focus{
+    border: none;
+    border-bottom: 1px solid #C10D0D;
+}
+
+.form-floating-label input:focus ~ label,
+.form-floating-label input:disabled[value] ~ label,
+.form-floating-label input:placeholder-shown ~ label,
+.form-floating-label.has-value input ~ label{
+    background-color: transparent;
+  top: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h6{
+    font-size: 14px;
+}
+
+.grad{
+    padding-bottom: 8px;
+}
+.year{
+    border: none;  /*Removes border*/
+    -webkit-appearance: none;  /*Removes default chrome and safari style*/
+    -moz-appearance: none;
+    padding: 1rem 2rem .5rem 1rem ; 
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 300;
+    border-bottom: 1px solid #2c3e50;
+    cursor: pointer;
+}
+.year:focus{
+    border: none;
+    border-bottom: 1px solid #C10D0D;
+}
+
+.year option{
+    color: #35485c;
+}
+
+  /*---submit btn---*/
+.btn{
+    position: relative;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #C10D0D;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.johayna {
+    border-radius: 100px 0px;
+    margin-top: 20px;
+    /* margin-left: 37%;  */
+    width: 150px;
+    font-size: 25px;
+    display: inline-block;
+}
+
+
+
+/* Fotter styling --------------------------------------- */
+
+.lower {
+    text-align: center;
+    background-color: #1F2421;
+    font-size: 1.5rem;
+    word-spacing: 3rem;
+    color: whitesmoke;
+    bottom: 0;
+    position: fixed;
+    width:100%;
+    
+}
+
+.lower .FACEBOOK:hover {
+    color: #4267b2;
+}
+
+.lower .YOUTUBE:hover {
+    color: #cc0000;
+}
+
+.lower .TWITTER:hover {
+    color: #2aa9e0;
+}
+
+.lower .INSTA:hover {
+    background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lower a {
+    color: whitesmoke;
+}
